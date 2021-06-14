@@ -1,0 +1,32 @@
+About the project: 
+
+Title: Monaco-The paradise of billionaires.
+Description: A dedication to the richest land on earth,not by native talent,but by billionaire immigrants.The true paradise on earth-Monaco..(double-period)
+
+Fonts used:
+Main-text:Great vibes;
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+Sub-main-text:allura;
+p-text:Monsterrat
+link:@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:ital@1&display=swap'); (combined-link)
+
+
+Colors and gradients:
+Gradient:
+background-color: #7ee8fa;
+background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+
+Color1:#9ADB24 //lg
+Color2:#4A5C2A //dark-green
+
+
+Images and videos:
+Source:Internet
+
+
+Acknowledgements:
+Easy tutorials:Youtube
+www.w3schools.com
+
+
+Copyrights : None.Open-Source-project

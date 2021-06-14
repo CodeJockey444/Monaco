@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Raleway:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0.85rem;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+  border-radius: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(26, 25, 25, 0.918);
+  border-radius: 15px;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+:root {
+  --sub-header-text: "Great Vibes", "cursive";
+  --header-text: "Allura", "sans-serif";
+  --normal-text: "Raleway";
+}
+html {
+  overflow-x: hidden;
+}
+header > div {
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+.header-text {
+  font-family: var(--header-text);
+  font-size: 6vw;
+}
+h2 {
+  font-size: 3.5vw;
+  font-family: var(--sub-header-text);
+}
+header > div > hr {
+  border-top: 2px solid rgb(226, 236, 248);
+}
+hr {
+  border-top: 2px solid #4a5c2a;
+}
+#banner > div {
+  padding: 0;
+}
+#banner > div > img {
+  width: 100%;
+  height: 80vh;
+  filter: brightness(100%);
+}
+.swiper-container {
+  width: 80%;
+  height: 70vh;
+  margin: 0 auto;
+}
+.swiper-slide > img {
+  width: 100%;
+  height: 100%;
+}
+header > div > h2 {
+  color: #fff;
+}
+h2 {
+  color: #9adb24;
+}
+p,.less-text{
+  font-family: var(--normal-text);
+  font-size: 2vw;
+}
+.less-text{display: none;}
+
+#guide {
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+.btn-read{
+  color:#fff;
+  font-family: var(--sub-header-text);
+  border:2px solid #fff;
+  border-radius: 1.75vw;
+  font-size:1.9vw;
+  padding:1.15vw;
+  transition: 0.75s;
+}
+.btn-read:hover{
+  color:#fff;
+  border:none;
+  border-radius: 1.75vw;
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  transition: 0.75s;
+}
+.btn-spl {
+  border-radius: 1.75vw;
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  font-family: var(--sub-header-text);
+  font-size: 1.8vw;
+  color: #fff;
+  margin: 1.3vw;
+  padding: 1.25vw 3vw;
+  cursor:pointer;
+}
+.btn-spl:hover {
+  color: #fff;
+  border: none;
+  box-shadow: 0 5.5px 9.3px rgba(0, 0, 0, 0.81),
+    0 18.3px 31.3px rgba(0, 0, 0, 0.483), 0 82px 140px rgba(0, 0, 0, 0.327);
+}
+.modal {
+  background-image: url(https://images7.alphacoders.com/456/thumb-1920-456548.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#spl-text{
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  -webkit-background-clip:text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+.modal-content {
+  color:#000;
+  gap: 20px;
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(214, 214, 214, 0.019);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 2px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
+  border-right: 2px rgba(40, 40, 40, 0.35) solid;
+}
+select > option {
+  font-family: var(--normal-text);
+}
+input{
+  border:2px solid aquamarine;
+}
+#social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#soc-btn {
+  color: #fff;
+  font-size: 1.8vw;
+  margin: 0.4vw;
+  border-radius: 50%;
+  background-color: #363c42;
+  box-shadow: inset 31px 31px 62px #141618, inset -31px -31px 62px #363c42;
+  transition: 1.5s;
+}
+#soc-btn:hover {
+  color: #fff;
+  font-size: 1.8vw;
+  margin: 0.4vw;
+  border-radius: 50%;
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.fa-facebook-f:hover {
+  color: #395498;
+}
+.fa-instagram:hover {
+  color: #a72871;
+}
+
+/*parallax page styles*/
+.box1,
+.box2,
+.box3 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://s1.1zoom.me/b5456/798/Monaco_Monte_Carlo_Houses_Skyscrapers_Saint-Roman_535310_1366x768.jpg);
+  font-family: var(--header-text);
+  color: #fff;
+  background-attachment: fixed;
+  background-size: cover;
+  display: table;
+  padding-top: 25vh;
+}
+.box2 {
+  background-image: url(https://wallpapercave.com/wp/M4Uu7ke.jpg);
+}
+.box3 {
+  background-image: url(https://cdn.wallpapersafari.com/18/17/24ExAy.jpg);
+}
+.pc {
+  width: 80vw;
+  height: clamp(50vh, 175px, 20vh);
+  color: white;
+  gap: 20px;
+  border-radius: 22px;
+  backdrop-filter: blur(2px);
+  background-color: rgba(225, 232, 234, 0.119);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 1px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 1px rgba(40, 40, 40, 0.35) solid;
+  border-right: 1px rgba(40, 40, 40, 0.35) solid;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+@media (max-width:500px) {
+  .pc{
+    height:35%;
+  }
+}
